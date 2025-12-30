@@ -8,16 +8,15 @@
 <body>
   <h1>Dynamic Quote Generator</h1>
 
-  <!-- Category selector will be injected here -->
-  <div id="categoryContainer"></div>
-
-  <!-- Quote display -->
   <div id="quoteDisplay"></div>
 
   <button id="newQuote">Show New Quote</button>
 
-  <!-- Add quote form will be injected here -->
-  <div id="formContainer"></div>
+  <!-- Import / Export -->
+  <div>
+    <button id="exportQuotes">Export Quotes (JSON)</button>
+    <input type="file" id="importFile" accept=".json" />
+  </div>
 
   <script src="script.js"></script>
 </body>
